@@ -1,0 +1,11 @@
+name: lineup-optimization-cookbook
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - pip
+  - pip:
+    - pulp
+    - pydfs-lineup-optimizer
